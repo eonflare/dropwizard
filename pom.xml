@@ -7,7 +7,7 @@
 
     <groupId>com.yammer.dropwizard</groupId>
     <artifactId>dropwizard-parent</artifactId>
-    <version>0.7.1-OPOWER-SNAPSHOT</version>
+    <version>0.7.0-OPOWER</version>
     <packaging>pom</packaging>
     <name>Dropwizard Project</name>
     <url>http://dropwizard.codahale.com/</url>
@@ -57,7 +57,7 @@
     <scm>
         <developerConnection>scm:git:git@github.va.opower.it:derrick-schneider/dropwizard-maven-repo.git</developerConnection>
         <url>https://github.va.opower.it/derrick-schneider/dropwizard-maven-repo/</url>
-      <tag>HEAD</tag>
+      <tag>v0.7.0-OPOWER</tag>
   </scm>
 
     <issueManagement>
