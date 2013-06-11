@@ -35,7 +35,7 @@
         <metrics.version>2.2.0</metrics.version>
         <jersey.version>1.17.1</jersey.version>
         <jackson.version>2.1.4</jackson.version>
-        <opower.repo.path>file:///home/derrick.schneider/dropwizard/</opower.repo.path>
+        <opower.repo.path>file:///Users/derrick.schneider/dev/dropwizard-maven-repo/releases/</opower.repo.path>
     </properties>
 
     <developers>
