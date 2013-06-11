@@ -35,7 +35,7 @@
         <metrics.version>2.2.0</metrics.version>
         <jersey.version>1.17.1</jersey.version>
         <jackson.version>2.1.4</jackson.version>
-        <opower.repo.path>file:///home/stephen.huenneke/src/dropwizard/</opower.repo.path>
+        <opower.repo.path>file:///home/derrick.schneider/dropwizard/</opower.repo.path>
     </properties>
 
     <developers>
@@ -55,9 +55,8 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/codahale/dropwizard.git</connection>
-        <developerConnection>scm:git:git@github.com:codahale/dropwizard.git</developerConnection>
-        <url>http://github.com/codahale/dropwizard/</url>
+        <developerConnection>scm:git:git@github.va.opower.it:derrick-schneider/dropwizard-maven-repo.git</developerConnection>
+        <url>https://github.va.opower.it/derrick-schneider/dropwizard-maven-repo/</url>
       <tag>HEAD</tag>
   </scm>
 
