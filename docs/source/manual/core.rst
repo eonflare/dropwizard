@@ -335,15 +335,11 @@ page.
 
 .. code-block:: java
 
-    private HelloWorldService() {
-        super("hello-world");
+    @Override
+    public void initialize(Bootstrap<HelloWorldConfiguration> bootstrap) {
+        bootstrap.setName("hello-world");
 
-        // By default a restart will be required to pick up any changes to assets.
-        // Use the following spec to disable that behaviour, useful when developing.
-        //CacheBuilderSpec cacheSpec = CacheBuilderSpec.disableCaching();
-
-        CacheBuilderSpec cacheSpec = AssetsBundle.DEFAULT_CACHE_SPEC;
-        addBundle(new AssetsBundle("/assets/", cacheSpec, "/"));
+        bootstrap.addBundle(new AssetsBundle("/assets/", "/"));
     }
 
 .. _man-core-commands:
@@ -1155,7 +1151,9 @@ Dropwizard has many configuration parameters, all of which come with good defaul
       port: 8080
 
       # The port on which the HTTP server listens for administrative
-      # requests. Subject to the same limitations as "port".
+      # requests. Subject to the same limitations as "port". If this is
+      # set to the same value as port, the admin routes will be mounted
+      # under /admin.
       adminPort: 8081
 
       # The minimum number of threads to keep running to process

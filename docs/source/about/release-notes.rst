@@ -4,6 +4,40 @@
 Release Notes
 #############
 
+.. _rel-0.7.0:
+
+v0.7.0: TBD
+===========
+
+* Dropped Scala support.
+
+.. _rel-0.6.2:
+
+v0.6.2: Mar 18 2013
+===================
+
+* Added support for non-UTF8 views.
+* Fixed an NPE for services in the root package.
+* Fixed exception handling in ``TaskServlet``.
+* Upgraded to Slf4j 1.7.4.
+* Upgraded to Jetty 8.1.10.
+* Upgraded to Jersey 1.17.1.
+* Upgraded to Jackson 2.1.4.
+* Upgraded to Logback 1.0.10.
+* Upgraded to Hibernate 4.1.9.
+* Upgraded to Hibernate Validator 4.3.1.
+* Upgraded to tomcat-dbcp 7.0.37.
+* Upgraded to Mustache.java 0.8.10.
+* Upgraded to Apache HttpClient 4.2.3.
+* Upgraded to Jackson 2.1.3.
+* Upgraded to argparse4j 0.4.0.
+* Upgraded to Guava 14.0.1.
+* Upgraded to Joda Time 2.2.
+* Added ``retries`` to ``HttpClientConfiguration``.
+* Fixed log formatting for extended stack traces, also now using extended stack traces as the
+  default.
+* Upgraded to FEST Assert 2.0M10.
+
 .. _rel-0.6.1:
 
 v0.6.1: Nov 28 2012
